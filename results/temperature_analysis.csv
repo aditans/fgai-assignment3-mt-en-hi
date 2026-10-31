@@ -1,0 +1,4 @@
+model,temperature,seed,bleu,chrf,status,notes
+LLaMA-family LoRA,0.0,42,,,not_run_gpu_required,Run notebook on CUDA GPU
+Gemma-family LoRA,0.0,42,,,not_run_gpu_required,Run notebook on CUDA GPU
+

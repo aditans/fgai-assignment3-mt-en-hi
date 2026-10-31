@@ -1,0 +1,10 @@
+model,method,model_id,bleu,bleu_signature,chrf,training_seconds,gpu_hours,inference_seconds,inference_ms_per_sentence,total_parameters,trainable_parameters,peak_gpu_memory_mb,adapter_size_mb,status,notes
+Basic Transformer,from_scratch,custom-transformer,,,,,,,,,,,not_run_gpu_required,Run notebook on CUDA GPU
+mT5-small,fine_tune,google/mt5-small,,,,,,,,,,,not_run_gpu_required,Run notebook on CUDA GPU; fp32 recommended for mT5 stability
+LLaMA-family,zero_shot,meta-llama/Llama-3.2-1B-Instruct,,,,,,,,,,,not_run_gpu_required,Gated checkpoint or documented public fallback
+LLaMA-family,three_shot,meta-llama/Llama-3.2-1B-Instruct,,,,,,,,,,,not_run_gpu_required,Gated checkpoint or documented public fallback
+LLaMA-family,LoRA,meta-llama/Llama-3.2-1B-Instruct,,,,,,,,,,,not_run_gpu_required,Gated checkpoint or documented public fallback
+Gemma-family,zero_shot,google/gemma-3-1b-it,,,,,,,,,,,not_run_gpu_required,Gated checkpoint or documented public fallback
+Gemma-family,three_shot,google/gemma-3-1b-it,,,,,,,,,,,not_run_gpu_required,Gated checkpoint or documented public fallback
+Gemma-family,LoRA,google/gemma-3-1b-it,,,,,,,,,,,not_run_gpu_required,Gated checkpoint or documented public fallback
+
